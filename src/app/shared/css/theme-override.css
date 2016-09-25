@@ -1,0 +1,348 @@
+/* for theme*/
+
+.tab-pane.fade.in.active{
+border:none;
+overflow:hidden;
+padding-left:15px;
+}
+.subheading{
+color: #000000;
+font-size: 14px;
+padding:10px 0 10px 0;
+}
+.settingSubheading
+{
+color: #000000;
+font-size: 14px;
+padding:10px 0 10px 50px;
+}
+h3 {
+color:black;
+}
+.radio-text{
+    color:#000000;
+    font-size: 18px;
+}
+.radio-img
+{
+    padding: 11px;
+}
+.common-text{
+    color:#656464;
+    font-size:12px;
+}
+.spacing{		
+padding-left:120px;
+}
+input[type='number'], input[type='checkbox']{
+            width: 20px;
+}
+.nav-tabs {
+	cursor:pointer;
+}
+input[type="radio"] {
+    width: 25px;
+}
+.navbar{
+	border-radius:0px;
+    background-image: none;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+/*
+.navbar .bg-theme-color .navbar-collapse .navbar-nav li>a:hover{
+    background-color: white;
+    color: #514546;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 2px solid #594f50;
+}
+*/
+.alert-success {	
+			background-color: none;		
+			text-align: center;		
+}
+/*
+.navbar .bg-theme-color .navbar-collapse .navbar-nav li>a.currentpage{
+    background-color: white;
+    color: #514546;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 2px solid #594f50;
+}
+*/
+.navbar-default .navbar-nav>li>a{
+    color: #000000;
+    font-size: 18px;
+}
+.modal-backdrop {
+    z-index: initial; 
+}
+.modal {
+       z-index: initial; 
+}
+.navbar-default .navbar-toggle {
+    border-color: #298787;
+    background-color: #298787;
+}
+
+.main-heading{
+    color:#615859;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-subheading{
+    color:#6e6e6e;
+    font-size: 14px;
+    margin-right:7px;
+}
+    .main-heading {
+    font-size: 29px !important;
+}
+    
+           .bgimage3 {
+    background-image: url('../images/bck-grd02.png');
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    height: 200px;
+    margin-bottom: 30px;
+}
+    .bgimage3 h1 {
+    font-size: 5.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+        color: #fff;
+        text-align:center;
+}
+    .rating-container {
+        font-size: 25px;
+        font-family: sans-serif;
+        letter-spacing: 0;
+        display: inline-block;
+        position: relative;
+        line-height: 25px;
+        opacity: 1;
+    }
+    
+    .rating-container .rating-content {
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        width: 0;
+    }
+    
+    .rating-container:after,
+    .rating-container .rating-content:after {
+        content: "\2605" "\2605" "\2605" "\2605" "\2605";
+        -webkit-font-smoothing: antialiased;
+        color: #cdddbc;
+    }
+    
+    .rating-container .rating-content:after {
+        color: #5b8f22;
+    }
+    
+    .popover {
+        width: 200px;
+        height: 250px;
+    }
+    
+
+    .space-bottom{
+       margin-bottom:20px; 
+    }  
+    .filter-style{
+        width:200px;
+        padding:5px 0;
+    }
+    a.contribute-color{
+        color:#ffffff;
+    }
+
+
+    .panel-heading.bottom-space{
+        padding-bottom: 0px;
+    }
+    .tab-content .tab-pane.fade .list-space{
+         cursor:pointer;
+        padding:5px;
+    }
+/* for default buttons*/
+
+
+.btn-default:focus,
+.btn-default.focus {
+    color: white;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.1)
+}
+.btn-default:hover {
+    color: white;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.1)
+}
+
+.btn-default {
+    background-image: linear-gradient(#298787, #298787 60%, #298787);
+}
+.btn-default {
+    color: white;
+    background-color: #ffffff;
+    border-color: rgba(0, 0, 0, 0.1)
+}
+.light{
+font-weight:lighter;
+}
+.pad{
+ display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+	    padding-top: 20px;
+}
+ ul.tree {
+        list-style: none;
+    }
+    
+    ul.tree > li {
+        margin: 10px;
+    }
+    
+    ul.tree > li > span {
+        cursor: pointer;
+    }
+.submitBtn
+{
+    padding-top:10px;
+    margin-right:15px
+}
+.goal
+{
+    text-align:right;
+}
+.contribute
+{
+    padding-left: 0px;
+}
+.cursor{
+    cursor:pointer;
+}
+a.text-color {
+        color: #000;
+    }
+    
+    a.text-color:hover {
+        color: #000;
+    }
+    .button-style{
+        padding:20px;
+        float:right;
+    }
+.approve-button{
+    text-align:right;
+    padding-top:10px;
+}
+.tab-content.tab-spacing{
+    padding-top: 5px;
+}
+
+.teamTable > th > td
+    {
+        background-color: #ffffff;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+   
+    .teamTable > trbgColor {
+        background-color: "#c69200"
+    }
+     
+    .redColor{
+        color:red
+    }
+    .settingSave{
+        text-align:right; 
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .leftPanel{
+        padding-left:30px;
+        padding-right:5px;
+    }
+    .rightPanel{
+        padding-right:30px; padding-left:5px;
+    }
+    .leftPanelHeadings{
+        cursor:pointer; padding-top:10px; padding:botton:10px;
+    }
+    
+    .mr15{
+        margin-right:15px;
+    }
+    .taR{
+       text-align:right 
+    }
+    .profileItem{
+        cursor:pointer; 
+        padding-top:10px; 
+        padding:botton:10px;
+    }
+    .rightPanelItem{
+        padding:10px 0 10px 0;    
+    }
+.backBtn
+{
+    padding-top:10px; 
+    float:right; 
+    padding-bottom:10px; 
+    padding-right:185px;
+   
+}
+.backBtnClr
+{
+     background-color: #eee;
+}
+.setIcon
+{
+    width:20px;
+}
+div table th,tr a
+{
+    color:#000;
+}
+div table th,tr a:hover
+{
+    color:#000;
+}
+@media only screen  and (min-width: 320px) and (max-width: 480px) {
+.subheading{
+    padding-left: 0;
+}
+}
+@media only screen  and (min-width: 320px) and (max-width: 480px) {
+.settingSubheading{
+    padding-left: 0;
+}
+}
+@media only screen  and (min-width: 320px) and (max-width: 480px) {
+.spacing{
+    padding-left: 0;
+}
+}
+
+#myModal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
